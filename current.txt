@@ -905,6 +905,7 @@ c8a57364f6ad20842be14f4db284df5304f7521ca8eac6bcc1fa6c5b466fb8a6 android.hardwar
 # HALs released in Android SCv2
 77f6fcf3fd0dd3e424d8a0292094ebd17e4c35454bb9abbd3a6cbed1aba70765 android.hardware.camera.metadata@3.7::types
 
+<<<<<<< HEAD
 # ABI preserving changes to HALs during Android T
 62ace52d9c3ff1f60f94118557a2aaf0b953513e59dcd34d5f94ae28d4c7e780 android.hardware.fastboot@1.0::IFastboot
 f767a132ef28275294db15353f14f3876a4048770751931a77d038d4228f2cb7 android.hardware.graphics.composer@2.4::IComposerClient
@@ -928,5 +929,8 @@ b7ce2d87841585551b082fca6d099622e63b7099e0d8013f687ea1a1dc35c4dc android.hardwar
 537f0bcfaf9d91b3136984f5e85d6ea559771726d6624a1d17c151b9c9f4b2f9 android.hardware.wifi@1.6::IWifiRttControllerEventCallback
 1bac6a7c8136dfb0414fe5639eec115aa2d12927e64a0642a43fb53225f099b2 android.hardware.wifi@1.6::IWifiStaIface
 0a800e010e8eb6eecdfdc96f04fd2ae2f417a79a74a7c0eec3a9f539199bccd4 android.hardware.wifi@1.6::types
+
+# Modified
+34e9846b11f31baa5fdb0276ff6b5e22d256e65728ec5340fc57847619088294 android.hardware.biometrics.fingerprint@2.3::IBiometricsFingerprint
 
 # There will be no more HIDL HALs. Use AIDL instead.
